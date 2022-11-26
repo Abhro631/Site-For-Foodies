@@ -4,571 +4,162 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Portfolio</title>
-    <link rel="stylesheet" href="style.css">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" integrity="sha512-1ycn6IcaQQ40/MKBW2W4Rhis/DbILU74C1vSrLJxCq57o941Ym01SwNsOMqvEBFlcgUa6xLiPY/NS5R+E6ztJQ==" crossorigin="anonymous" referrerpolicy="no-referrer" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-<link href="https://fonts.googleapis.com/css2?family=Merriweather&display=swap" rel="stylesheet">
+    <title>Site for the foodies</title>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/utils.css">
+    <link rel="stylesheet" href="css/responsive.css">
+    
 </head>
-<body class="main">
-    <header class="container header active" id="home">
-        <div class="header-content">
-            <div class="left-header">
-                <div class="h-shape"></div>
-                <div class="image">
-                    <img src="img/hero.png" alt="">
-                </div>
-            </div>
-            <div class="right-header">
-                <h1 class="name">
-                    <span>Abhro Kr. Roy.</span><br>
-                    Full-Stack Web Developer.
-                </h1>
-                <p>
-                    I'm a Web Developer,my prime interests include creating responsive websites , solving DSA and real-word problems.<br>
-                    Other sectors of interest : <br>
-                    Cybersecurity , ML and BlockChain.<br>
-                    Hobbies : <br>
-                    Singing , Swimming , Writing Poems and Travelling.
-                    
-                </p>
-                <div class="btn-con">
-                    <a href="" class="main-btn">
-                        <span class="btn-text">Download CV</span>
-                        <span class="btn-icon"><i class="fas fa-download"></i></span>
-                    </a>
-                </div>
-            </div>
+<body>
+    <header>
+       <nav>
+        <div class="logo"> 
+            <img src="logo.png" alt="lol">
         </div>
+         <ul>
+               <li><a href="home.html">Home</a></li>
+               <li><a href="about.html">About</a><li>
+               <li><a href="contact.html">Contact</a></li>
+             
+           </ul>
+           <div class="search">
+               <input type="text" name="" id="" placeholder="Search here for various food items">
+               <button class="btn">Search Food Items</button>
+           </div>
+       </nav>
     </header>
     <main>
-        <section class="container about" id="about">
-            <div class="main-title">
-                <h2>About <span>me</span><span class="bg-text">my stats</span></h2>
-            </div>
-            <div class="about-container">
-                <div class="left-about">
-                    <h4>Information About me</h4>
-                    <p>
-                        A coder who is willing to learn new things and is highly interested in sectors like Web development , AI and Machine Learning.<br><br>
-                        I am exploring myself through all technological developments . Dedication , fascination and discipline are my prime concern.<br><br>
-                        I am also interested in Data Structures and Competetive programming.I want to pursue Software Development as my career and propel in this engineering industry through my skills. <br><br>
-                        Currently studying in SRM University pursuing B.Tech studying in SRM<br>(2nd Year).
-                    </p>
-                    <div class="btn-con">
-                        <a href="#" class="main-btn">
-                            <span class="btn-text">Download CV</span>
-                            <span class="btn-icon"><i class="fas fa-download"></i></span>
-                        </a>
-                    </div>
-                </div>
-                <div class="right-about">
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">3+</p>
-                            <p class="small-text">Projects <br /> Completed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Years of <br />coding experience</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">5+</p>
-                            <p class="small-text">Repositories <br /> Deployed</p>
-                        </div>
-                    </div>
-                    <div class="about-item">
-                        <div class="abt-text">
-                            <p class="large-text">10+</p>
-                            <p class="small-text">Certificates and<br /> Internships</p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <div class="about-stats">
-                <h4 class="stat-title">My Skills</h4>
-                <div class="progress-bars">
-                    <div class="progress-bar">
-                        <p class="prog-title">html5</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="html"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">css3</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="css"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">javascript</p>
-                        <div class="progress-con">
-                            <p class="prog-text">70%</p>
-                            <div class="progress">
-                                <span class="js"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">ReactJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">60%</p>
-                            <div class="progress">
-                                <span class="react"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">NodeJS</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="node"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C++</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="cpp"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">C</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="c"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Java</p>
-                        <div class="progress-con">
-                            <p class="prog-text">50%</p>
-                            <div class="progress">
-                                <span class="java"></span>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="progress-bar">
-                        <p class="prog-title">Python</p>
-                        <div class="progress-con">
-                            <p class="prog-text">80%</p>
-                            <div class="progress">
-                                <span class="python"></span>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-            </div>
-            <h4 class="stat-title">My Timeline</h4>
-            <div class="timeline">
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-school"></i>
-                    </div>
-                    <p class="tl-duration">2004 - 2008</p>
-                    <h5>Primary Education</h5>
-                    <h5><u>Kid's garden school</u></h5>
-                    <p>
-                        Completed my primary education from Kid's garden school , a local shool in Patna.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-book-open"></i>
-                    </div>
-                    <p class="tl-duration">2008 - 2018</p>
-                    <h5>Matriculation</h5>
-                    <h5><u>Don Bosco Academy</u></h5>
-                    <p>
-                        Completed my education from class 1 to 10th in Don Bosco Academy, Patna. Secured 95% in ICSE Board Exams.Participated and won olympiads,debates,elocutions and various extracurricular activities . Member of Student council and was the joint secretary of the school during my 10th Standard.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-id-card"></i>
-                    </div>
-                    <p class="tl-duration">2018 - 2020</p>
-                    <h5>12th Grade</h5>
-                    <h5><u>St. Michael's High School</u></h5>
-                    <p>Completed my 12th from St. Michael's High School. Secured 95% in CBSE 12th Board Exams.Participated and won sporting events,speeches and various extracurricular activities . Master of ceremony for various school events.
-                    </p>
-                </div>
-                <div class="timeline-item">
-                    <div class="tl-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <p class="tl-duration">2020 - 2024</p>
-                    <h5>Bachelors in Teachnology Degree</h5>
-                    <h5><u>SRM Institute of Science And Technology</u></h5>
-                    <p>
-                      Took part in hackathons , did couple of internships , was part of esteemed clubs like AARUSH(Technical Team Envision) , Recon Subsea(Tecahnical team) and SRM Hackathon(Literary Team). Participated and won various coding events.Top 10 in SRM e-Lab and was actively associated with Web-Dev activities. 
-                    </p>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="portfolio">
-            <div class="main-title">
-                <h2>My <span>Portfolio</span><span class="bg-text">My Work</span></h2>
-            </div>
-            <p class="port-text">
-                Here is some of my work that I've done in various programming languages.
-            </p>
-            <div class="portfolios">
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port1.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port3.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port4.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port5.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port2.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-                <div class="portfolio-item">
-                    <div class="image">
-                        <img src="img/port7.jpg" alt="">
-                    </div>
-                    <div class="hover-items">
-                        <h3>Project Source</h3>
-                        <div class="icons">
-                            <a href="#" class="icon">
-                                <i class="fab fa-github"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-behance"></i>
-                            </a>
-                            <a href="#" class="icon">
-                                <i class="fab fa-youtube"></i>
-                            </a>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container" id="blogs">
-            <div class="blogs-content">
-                <div class="main-title">
-                    <h2>My <span>Blogs</span><span class="bg-text">My Blogs</span></h2>
-                </div>
-                <div class="blogs">
-                    <div class="blog">
-                        <img src="img/port6.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Create Your Own Website
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                How to Become an Expert in Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog2.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Become a Web Designer in 10 Days
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/blog3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Debbuging made easy with Web Inspector
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port1.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                Get started with Web Design and UI Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                    <div class="blog">
-                        <img src="img/port3.jpg" alt="">
-                        <div class="blog-text">
-                            <h4>
-                                This is what you need to know about Web Design
-                            </h4>
-                            <p>
-                                Lorem ipsum dolor sit, amet consectetur adipisicing elit. 
-                                Doloribus natus voluptas, eos obcaecati recusandae amet?
-                            </p>
-                        </div>
-                    </div>
-                </div>
-            </div>
-        </section>
-        <section class="container contact" id="contact">
-            <div class="contact-container">
-                <div class="main-title">
-                    <h2>Contact <span>Me</span><span class="bg-text">Contact</span></h2>
-                </div>
-                <div class="contact-content-con">
-                    <div class="left-contact">
-                        <h4>Contact me here</h4>
-                        <p>
-                            Lorem ipsum dolor sit amet consectetur adipisicing elit. 
-                            In, laborum numquam? Quam excepturi perspiciatis quas quasi.
-                        </p>
-                        <div class="contact-info">
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <span>Location</span>
-                                </div>
-                                <p>
-                                    : London, united Kingdom
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-envelope"></i>
-                                    <span>Email</span>
-                                </div>
-                                <p>
-                                    <span>: maclinzuniversal@gmail.com</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Education</span>
-                                </div>
-                                <p>
-                                    <span>: Sussex University, East Sussex</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-user-graduate"></i>
-                                    <span>Mobile Number</span>
-                                </div>
-                                <p>
-                                    <span>: 07522670617</span>
-                                </p>
-                            </div>
-                            <div class="contact-item">
-                                <div class="icon">
-                                    <i class="fas fa-globe-africa"></i>
-                                    <span>Languages</span>
-                                </div>
-                                <p>
-                                    <span>: Afrikaans, English, Spanish</span>
-                                </p>
-                            </div>
-                        </div>
-                        <div class="contact-icons">
-                            <div class="contact-icon">
-                                <a href="www.facebook.com" target="_blank">
-                                    <i class="fab fa-facebook-f"></i>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-twitter"></i>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-github"></i>
-                                </a>
-                                <a href="#" target="_blank">
-                                    <i class="fab fa-youtube"></i>
-                                </a>
-                            </div>
-                        </div>
-                    </div>
-                    <div class="right-contact">
-                        <form action="" class="contact-form">
-                            <div class="input-control i-c-2">
-                                <input type="text" required placeholder="YOUR NAME">
-                                <input type="email" required placeholder="YOUR EMAIL">
-                            </div>
-                            <div class="input-control">
-                                <input type="text" required placeholder="ENTER SUBJECT">
-                            </div>
-                            <div class="input-control">
-                                <textarea name="" id="" cols="15" rows="8" placeholder="Message Here..."></textarea>
-                            </div>
-                            <div class="submit-btn">
-                                <a href="#" class="main-btn">
-                                    <span class="btn-text">Download CV</span>
-                                    <span class="btn-icon"><i class="fas fa-download"></i></span>
-                                </a>
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        </section>
-    </main>
-            </div>
-        </div>
-    </header>
-    <main><section class="section sec2 about" id="about"></section></main>
-    <main><section class="section sec3 portfolio" id="portfolio"></section></main>
-    <main><section class="section sec4 certificates" id="certificates"></section></main>
-    
-    <div class="controls">
-        <div class="control control-1 active-btn">
-            <i class="fas fa-home"></i>
-        </div>
-        <div class="control control-2" data-id="about">
-            <i class="fas fa-user"></i>
-        </div>
-        <div class="control control-3" data-id="portfolio">
-            <i class="fas fa-briefcase"></i>
-        </div>
-        <div class="control control-4" data-id="certificates">
-            <i class="fas fa-award"></i>
-        </div>
-
+     <div class="container">
+      <div class="slider">
+       <img src="https://www.blueosa.com/wp-content/uploads/2020/01/the-best-top-10-indian-dishes.jpg" alt="">
+      </div>
+      <div class="card">
+          <h1 class="my2">Be a part of a delicious universe</h1>
+          <h2>Indian Cuisine</h2>
+      </div>
+      <div class="cards">
+      <div class="carditem">
+          <img src="hhj.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Chicken Lollipop</p>
+          <p class="Textcenter my1">Min. 15% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
     </div>
-    <script src="app.js"></script>
+      <div class="carditem">
+          <img src="pann.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Shahi Paneer</p>
+          <p class="Textcenter my1">Min. 25% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="mutt.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Mutton Ragan Josh</p>
+          <p class="Textcenter my1">Min. 8% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="fik.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Fish Fingers</p>
+          <p class="Textcenter my1">Min. 12% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="egg.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Egg Lababdar(Special)</p>
+          <p class="Textcenter my1">Min. 25% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="baby.jpeg".jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Baby Corn Chilli</p>
+          <p class="Textcenter my1">Min. 10% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="fre.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >French Fries</p>
+          <p class="Textcenter my1">Min. 15% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+</div>
+      <div class="card">
+          <h2 class="my2">Chinese cuisine</h2>
+      </div>
+      <div class="cards">
+      <div class="carditem">
+          <img src="chow.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Chicken Chowmein</p>
+          <p class="Textcenter my1">Min. 15% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="chi.jpeg".jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Chilli Chicken</p>
+          <p class="Textcenter my1">Min. 25% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="mom.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Chicken Momo</p>
+          <p class="Textcenter my1">Min. 8% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="ham.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Chinese Hamburger</p>
+          <p class="Textcenter my1">Min. 12% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="manch.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Manchurian</p>
+          <p class="Textcenter my1">Min. 25% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="uio.jpeg".jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Manchow soup</p>
+          <p class="Textcenter my1">Min. 10% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+      <div class="carditem">
+          <img src="sch.jpeg" alt="" width="160px" height="200px">
+          <div class="lines">
+          <p class="Textcenter my1" >Schezwan Chicken</p>
+          <p class="Textcenter my1">Min. 15% off</p>
+          <p class="Textcenter my1" >Grab Now</p>
+      </div>
+    </div>
+</div>
+     </div>
+    </main>
+    <footer class="flex-all-center" >
+        <p>Copyright &copy; Ghar Ki Rasoi.com</p>
+    </footer>
 </body>
 </html>
